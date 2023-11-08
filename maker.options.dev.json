@@ -1,0 +1,19 @@
+{
+    "appId": "com.butter.composer-dev",
+    "productName": "Electron Path (DEV)",
+    "npmRebuild": false,
+    "asar": false,
+    "electronCompile": false,
+    "removePackageScripts": true,
+    "win": {
+        "target": "appx",
+        "certificateFile": "./DummyCert.pfx",
+        "publisherName": "Test"
+    },
+    "appx": {   
+        "identityName": "343434Test.PathDev",
+        "applicationId": "Test.PathDev",
+        "displayName": "Electron Path (DEV)",
+        "publisherDisplayName": "Test"
+    }
+}   

@@ -1,0 +1,17 @@
+{
+  "name": "appx",
+  "version": "1.0.3",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "cert": " electron-builder create-self-signed-cert -p DummyCert",
+    "make": "electron-builder build -c maker.options.dev.json"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^27.0.3",
+    "electron-builder": "^24.6.4"
+  }
+}
